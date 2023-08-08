@@ -9,7 +9,8 @@
   "private": false,
   "scripts": {
     "serve:sample-data": "json-server sample-data.json",
-    "serve:brute-force": "node brute-force.js"
+    "serve:brute-force": "node brute-force.js",
+    "serve:get-assets": "node get-assets-from-fliplets.js"
   },
   "dependencies": {
     "axios": "^1.4.0",
